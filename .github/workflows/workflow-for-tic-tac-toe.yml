@@ -15,6 +15,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Play Tic Tac Toe
-        uses: remcokranenburg/tic-tac-toe-action
+        uses: remcokranenburg/tic-tac-toe-action@main
         with:
           move: "Tic: A1"
