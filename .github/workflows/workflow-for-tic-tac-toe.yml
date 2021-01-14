@@ -17,4 +17,4 @@ jobs:
       - name: Play Tic Tac Toe
         uses: remcokranenburg/tic-tac-toe-action@main
         with:
-          move: "Tic: A1"
+          token: ${{secrets.GITHUB_TOKEN}}
